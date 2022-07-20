@@ -1,0 +1,6 @@
+interpolate_psf_table
+=====================
+
+.. currentmodule:: pyirf.interpolation
+
+.. autofunction:: interpolate_psf_table
