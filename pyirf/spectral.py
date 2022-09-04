@@ -26,6 +26,7 @@ __all__ = [
     "LogParabola",
     "PowerLawWithExponentialGaussian",
     "CRAB_HEGRA",
+    "CRAB_HEGRA2",
     "CRAB_MAGIC_JHEAP2015",
     "PDG_ALL_PARTICLE",
     "IRFDOC_PROTON_SPECTRUM",
@@ -313,6 +314,9 @@ CRAB_HEGRA = PowerLaw(
     normalization=2.83e-11 / (u.TeV * u.cm ** 2 * u.s), index=-2.62, e_ref=1 * u.TeV,
 )
 
+CRAB_HEGRA2 = PowerLaw(
+    normalization=2.83e-11 / (u.TeV * u.cm ** 2 * u.s), index=-1.62, e_ref=1 * u.TeV,
+)
 #: Log-Parabola parametrization of the Crab Nebula spectrum as published by MAGIC
 #:
 #: From "Measurement of the Crab Nebula spectrum over three decades in energy with the MAGIC telescopes",
